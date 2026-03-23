@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class SalaryCalculator {
     public static void main(String[] args) {
         //initialize known values
-        int salary = 10000;
-        int bonus = 2500;
         int quota = 10;
 
         //Get values for the unknown
@@ -16,11 +14,15 @@ public class SalaryCalculator {
         input.close();
 
         //quick detour for the bonus earners
-        if (sales > quota) {
-            salary = salary + bonus;
-
+        if (sales >= quota) {
+            System.out.println("Congrats!! You have met your quota!.");
         }
+        else{
+            int salesShort = quota - sales;
+            System.out.println("You have " + salesShort + " sales left.");
+        }
+
         //output
-        System.out.println("The employee salary is: " + salary);
+
     }
 }
