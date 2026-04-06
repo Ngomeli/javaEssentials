@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Vehichle {
+public class vehicle {
 
     private String color;
     private int mileage;

@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Car extends Vehichle{
+public class Car extends vehicle {
 
     private int doors;
 
