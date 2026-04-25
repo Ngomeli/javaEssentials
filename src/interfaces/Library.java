@@ -3,7 +3,11 @@ package interfaces;
 public class Library {
 
     public static void main(String[] args) {
-        product book = new Book();
+        Product book = new Book();
+        book.setName("Atomic Habits");
+
+        Book book2 = new Book();
+
 
     }
 }
