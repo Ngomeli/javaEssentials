@@ -4,6 +4,6 @@ public interface Product {
     String getName();
     void setName(String name);
 
-    default double getPrice();{ return 50;}
-    default setPrice(double price);
+    default double getPrice(){ return 50;}
+    //default setPrice(double Price);
 }
