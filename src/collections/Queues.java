@@ -10,7 +10,11 @@ public class Queues {
         fruits.add("Cherry");
         fruits.add("Watermelon");
         fruits.add("Pineapple");
+        fruits.add("Pineapple");
+        var removed = fruits.remove();
 
         System.out.println("Fruits: "+fruits);
+        System.out.println("Removed: "+removed);
+        System.out.println("head of queue:" + fruits.peek());
     }
 }
