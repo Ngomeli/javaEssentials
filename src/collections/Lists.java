@@ -10,7 +10,13 @@ public class Lists {
         fruits.add("banana");
         fruits.add("cherry");
         fruits.add("watermelon");
+        fruits.set(2, "Mango");
+        fruits.add("banana");
+        fruits.remove(4);
 
         System.out.println("Fruits: "+fruits);
+        System.out.println(fruits.get(2));
+        System.out.println("index of first banana: "+fruits.indexOf("banana"));
+        System.out.println("index of last banana: "+fruits.lastIndexOf("banana"));
     }
 }
